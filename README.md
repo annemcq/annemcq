@@ -1,4 +1,4 @@
-# Hi, I'm Anne 👋
+# Hi, I'm Anne!
 
 MSc Physics student at Freie Universität Berlin, working as a Research Assistant in the
 Clementi group (computational biophysics / machine learning for molecular simulation).

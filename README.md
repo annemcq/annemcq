@@ -9,7 +9,7 @@ adjacent Project Coordinator / Operations roles) at biotech/tech companies in Be
 
 ---
 
-## 🧪 Featured projects
+## Featured projects
 
 Every project below has automated tests (see the ✅ badge on each repo) and an honest
 write-up of what worked and what didn't.
@@ -44,7 +44,7 @@ landscape live.
 
 ---
 
-## 🤝 Collaborative work
+## Collaborative work
 
 **[ADK-project](https://github.com/annemcq/ADK-project)**
 A dual-basin structure-based (Gō-like) coarse-grained model of Adenylate Kinase's
@@ -52,10 +52,10 @@ open↔closed conformational transition, developed jointly with a course partner
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 Python · PyTorch · scikit-learn · FastAPI · Streamlit · Docker · OpenMM · pymbar
 
-## 📫 Get in touch
+## Get in touch
 
 annemcquaid@live.com

@@ -49,4 +49,4 @@ FastAPI · Streamlit · Docker
 
 ## Get in touch
 
-[LinkedIn](YOUR_LINKEDIN_URL) · [Email](mailto:annemcquaid@live.com)
+[LinkedIn](https://www.linkedin.com/in/anne-mc-quaid-bara%C3%B1ano-31a980230/) · [Email](mailto:annemcquaid@live.com)

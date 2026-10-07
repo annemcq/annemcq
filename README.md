@@ -4,7 +4,7 @@ MSc Physics student at Freie Universität Berlin and Research Assistant in the C
 working at the intersection of molecular simulation and machine learning. My thesis focuses on 
 machine-learned coarse-grained models for TCR–pMHC complexes.
 Currently finishing my MSc and looking for opportunities in scientific machine learning, computational biology and biotech in Berlin.
-
+I build machine-learning and molecular simulation workflows for computational biology and molecular modelling.
 ---
 
 ## Featured projects

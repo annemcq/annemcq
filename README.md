@@ -1,18 +1,13 @@
 # Hi, I'm Anne!
 
-MSc Physics student at Freie Universität Berlin, working as a Research Assistant in the
-Clementi group (computational biophysics / machine learning for molecular simulation).
-Finishing a thesis on machine-learned coarse-grained models for TCR–pMHC complexes.
-
-Looking for entry-level **Research Engineer / Machine Learning Engineer** roles (and
-adjacent Project Coordinator / Operations roles) at biotech/tech companies in Berlin.
+MSc Physics student at Freie Universität Berlin and Research Assistant in the Clementi group, 
+working at the intersection of molecular simulation and machine learning. My thesis focuses on 
+machine-learned coarse-grained models for TCR–pMHC complexes.
+Currently finishing my MSc and looking for opportunities in scientific machine learning, computational biology and biotech in Berlin.
 
 ---
 
 ## Featured projects
-
-Every project below has automated tests (see the ✅ badge on each repo) and an honest
-write-up of what worked and what didn't.
 
 **[tcr-peptide-ranking](https://github.com/annemcq/tcr-peptide-ranking)**
 Ranking candidate peptides for a given TCR using sequence features and the TCRen

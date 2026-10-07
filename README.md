@@ -1,56 +1,52 @@
 # Hi, I'm Anne!
 
-MSc Physics student at Freie Universität Berlin and Research Assistant in the Clementi group, 
-working at the intersection of molecular simulation and machine learning. My thesis focuses on 
-machine-learned coarse-grained models for TCR–pMHC complexes.
-Currently finishing my MSc and looking for opportunities in scientific machine learning, computational biology and biotech in Berlin.
-I build machine-learning and molecular simulation workflows for computational biology and molecular modelling.
+MSc Physics student at Freie Universität Berlin and Research Assistant in the Clementi group, working at the intersection of molecular simulation, machine learning, and computational biology.
+
+My thesis focuses on machine-learned coarse-grained models for TCR–pMHC complexes. I build computational workflows that combine molecular simulation, statistical mechanics, and machine learning to study molecular systems.
+
+Currently finishing my MSc and looking for opportunities in scientific machine learning, computational biology, and biotech in Berlin.
+
 ---
 
 ## Featured projects
 
-**[tcr-peptide-ranking](https://github.com/annemcq/tcr-peptide-ranking)**
-Ranking candidate peptides for a given TCR using sequence features and the TCRen
-structural potential — grouped repeated evaluation across 7 models, paired statistical
-significance testing (Wilcoxon signed-rank, Holm-Bonferroni corrected), and a genuinely
-held-out inference demo.
+**[TCR–Peptide Ranking](https://github.com/annemcq/tcr-peptide-ranking)**  
+Machine learning for ranking candidate peptides for a given TCR using sequence features and the TCRen structural potential. The project uses grouped repeated evaluation across TCRs, ranking metrics, paired statistical comparisons, and a genuinely held-out inference demo. It also investigates dataset limitations and potential negative-sampling shortcuts.
 
-**[free-energy-mbar-zwanzig](https://github.com/annemcq/free-energy-mbar-zwanzig)**
-Free energy estimation (MBAR and Zwanzig perturbation) validated against an analytical
-solution, then applied to real umbrella-sampling data — with an honest comparison of
-where single-step Zwanzig chaining diverges from a true multistate estimator.
+**[Machine-Learned Coarse-Grained Force Field](https://github.com/annemcq/mlcg-gnn-alanine)**  
+A SchNet-style graph neural network trained by force matching to learn a coarse-grained force field for alanine dipeptide. The model combines a harmonic bonded prior with a learned GNN correction and is validated through molecular dynamics simulations. The project also documents a failure mode of a purely learned model and how incorporating physical structure improves simulation stability.
 
-**[protein-simulation-stability-analysis](https://github.com/annemcq/protein-simulation-stability-analysis)**
-Interpretable machine learning for protein simulation stability, using structure- and
-energy-based features — with repeated-evaluation significance testing (which overturned
-the original single-split result: the real signal turned out to come from logistic
-regression, not Random Forest) and real SHAP-based feature importance.
+**[Free Energy: MBAR & Zwanzig](https://github.com/annemcq/free-energy-mbar-zwanzig)**  
+Implementation and validation of free-energy estimators based on MBAR and Zwanzig perturbation. The methods are first validated against an analytical solution and then applied to umbrella-sampling data, including bootstrap uncertainty estimation and comparison of single-step Zwanzig estimates with a multistate MBAR reference.
 
-**[mlcg-gnn-alanine](https://github.com/annemcq/mlcg-gnn-alanine)**
-A graph neural network trained by force matching to learn a coarse-grained force field
-for alanine dipeptide (harmonic bonded prior + SchNet-style GNN correction) — including
-an honestly-documented failure mode (a GNN with no physical prior diverges when
-simulated) and what fixed it.
+**[Protein Simulation Stability Analysis](https://github.com/annemcq/protein-simulation-stability-analysis)**  
+Interpretable machine learning for protein simulation stability using structure- and energy-based features. The project compares logistic regression and Random Forest models across repeated train/test splits, with statistical comparisons and SHAP-based feature importance. The analysis emphasizes reproducibility, model limitations, and cautious interpretation of small-data results.
 
-**[cgnet-api](https://github.com/annemcq/cgnet-api)**
-Deploying the coarse-grained force field above as an interactive FastAPI + Streamlit
-application — pick backbone phi/psi angles and explore the model's learned energy
-landscape live.
+**[CG Force Field API](https://github.com/annemcq/cgnet-api)**  
+An interactive FastAPI + Streamlit application built around the coarse-grained force field above. Users can choose backbone φ/ψ angles, reconstruct a coarse-grained structure, evaluate the learned model, and explore its predicted energy landscape.
 
 ---
 
 ## Collaborative work
 
-**[ADK-project](https://github.com/annemcq/ADK-project)**
-A dual-basin structure-based (Gō-like) coarse-grained model of Adenylate Kinase's
-open↔closed conformational transition, developed jointly with a course partner.
+**[ADK-project](https://github.com/annemcq/ADK-project)**  
+A dual-basin structure-based (Gō-like) coarse-grained model of Adenylate Kinase's open↔closed conformational transition, developed jointly with a course partner.
 
 ---
 
 ## Technologies
 
-Python · PyTorch · scikit-learn · FastAPI · Streamlit · Docker · OpenMM · pymbar
+**Scientific computing & simulation:**  
+Python · OpenMM · MDTraj · pymbar
+
+**Machine learning:**  
+PyTorch · scikit-learn
+
+**Scientific software:**  
+FastAPI · Streamlit · Docker
+
+---
 
 ## Get in touch
 
-annemcquaid@live.com
+[LinkedIn](YOUR_LINKEDIN_URL) · [Email](mailto:annemcquaid@live.com)

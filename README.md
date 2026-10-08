@@ -54,6 +54,10 @@ FastAPI · Streamlit · Docker
 
 ---
 
+## AI-assisted development
+
+AI coding tools were used as part of the development process across some projects, with the resulting code, analyses, and documentation reviewed, tested, and validated.
+
 ## Get in touch
 
 [LinkedIn](https://www.linkedin.com/in/anne-mc-quaid-bara%C3%B1ano-31a980230/) · [Email](mailto:annemcquaid@live.com)

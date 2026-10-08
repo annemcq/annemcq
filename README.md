@@ -57,7 +57,7 @@ FastAPI · Streamlit · Docker
 
 ## AI-assisted development
 
-AI coding tools were used as part of the development process across some projects, with the resulting code, analyses, and documentation reviewed, tested, and validated.
+AI tools supported parts of the coding, debugging, and documentation process. I made the methodological decisions, ran the experiments, checked the results, and reviewed the final code and scientific interpretations.
 
 ## Get in touch
 

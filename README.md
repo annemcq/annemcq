@@ -16,7 +16,7 @@ Machine learning for ranking candidate peptides for a given TCR using sequence f
 
 **[Machine-Learned Coarse-Grained Force Field](https://github.com/annemcq/mlcg-gnn-alanine)**  
 
-A SchNet-style graph neural network trained by force matching to learn a coarse-grained force field for alanine dipeptide. The model combines a harmonic bonded prior with a learned GNN correction and is validated through molecular dynamics simulations. The project also documents a failure mode of a purely learned model and how incorporating physical structure improves simulation stability.
+A SchNet-style graph neural network trained by force matching to learn a coarse-grained force field for alanine dipeptide. The model combines a harmonic bonded prior with a learned GNN correction and is validated through molecular dynamics simulations. It compares physical-prior and GNN-only dynamics, focusing on conformational distributions rather than an earlier instability claim that did not reproduce. The controlled, equal-training comparison is still in progress.
 
 **[Free Energy: MBAR & Zwanzig](https://github.com/annemcq/free-energy-mbar-zwanzig)**  
 
@@ -38,7 +38,7 @@ An interactive FastAPI + Streamlit application built around the coarse-grained f
 
 **[ADK-project](https://github.com/annemcq/ADK-project)**  
 
-A dual-basin structure-based (Gō-like) coarse-grained model of Adenylate Kinase's open↔closed conformational transition, developed jointly with a course partner.
+A dual-basin structure-based (Gō-like) coarse-grained model of Adenylate Kinase, developed jointly with a course partner. The stored simulation shows repeated LID closure, but does not reach full NMP closure.
 
 ---
 

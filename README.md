@@ -15,6 +15,7 @@ Currently finishing my MSc and looking for opportunities in scientific machine l
 Machine learning for ranking candidate peptides for a given TCR using sequence features and the TCRen structural potential. The project uses grouped repeated evaluation across TCRs, ranking metrics, paired statistical comparisons, and a held-out inference demo. It also investigates dataset limitations and potential negative-sampling shortcuts.
 
 **[Machine-Learned Coarse-Grained Force Field](https://github.com/annemcq/mlcg-gnn-alanine)**  
+
 A SchNet-style graph neural network trained by force matching to learn a coarse-grained force field for alanine dipeptide. The model combines a harmonic bonded prior with a learned GNN correction and is validated through molecular dynamics simulations. The project also documents a failure mode of a purely learned model and how incorporating physical structure improves simulation stability.
 
 **[Free Energy: MBAR & Zwanzig](https://github.com/annemcq/free-energy-mbar-zwanzig)**  
@@ -27,7 +28,7 @@ Interpretable machine learning for protein simulation stability using structure-
 
 **[CG Force Field API](https://github.com/annemcq/cgnet-api)**  
 
-An interactive FastAPI + Streamlit application built around the coarse-grained force field above. Users can choose backbone φ/ψ angles, reconstruct a coarse-grained structure, evaluate the learned model, and explore its predicted energy landscape. [Live demo](https://annemcq-cgnet-api-streamlit-appapp-obnfhv.streamlit.app).
+An interactive FastAPI + Streamlit application built around the coarse-grained force field from `mlcg-gnn-alanine`. Users can choose backbone φ/ψ angles, reconstruct a coarse-grained structure, evaluate the learned model, and explore its predicted energy landscape. [Live demo](https://annemcq-cgnet-api-streamlit-appapp-obnfhv.streamlit.app).
 
 ---
 

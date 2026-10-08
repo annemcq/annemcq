@@ -16,7 +16,7 @@ Machine learning for ranking candidate peptides for a given TCR using sequence f
 
 **[Machine-Learned Coarse-Grained Force Field](https://github.com/annemcq/mlcg-gnn-alanine)**  
 
-A SchNet-style graph neural network trained by force matching to learn a coarse-grained force field for alanine dipeptide. The model combines a harmonic bonded prior with a learned GNN correction and is validated through molecular dynamics simulations. It compares physical-prior and GNN-only dynamics, focusing on conformational distributions rather than an earlier instability claim that did not reproduce. The controlled, equal-training comparison is still in progress.
+A SchNet-style graph neural network trained by force matching to learn a coarse-grained force field for alanine dipeptide. The model combines a harmonic bonded prior with a learned GNN correction and is validated through molecular dynamics simulations. A matched 60-epoch, three-seed comparison found the prior + GNN model closer to the reference conformational distribution (pooled JSD 0.583 vs 0.858 bits for GNN-only); the earlier claimed GNN-only instability was not reproduced.
 
 **[Free Energy: MBAR & Zwanzig](https://github.com/annemcq/free-energy-mbar-zwanzig)**  
 

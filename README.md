@@ -14,6 +14,10 @@ Currently finishing my MSc and looking for opportunities in scientific machine l
 
 Machine learning for ranking candidate peptides for a given TCR using sequence features and the TCRen structural potential. The project uses grouped repeated evaluation across TCRs, ranking metrics, paired statistical comparisons, and a held-out inference demo. It also investigates dataset limitations and potential negative-sampling shortcuts.
 
+**[TCR–Peptide SQL Analysis](https://github.com/annemcq/tcr-peptide-sql-analysis)**
+
+A reproducible SQLite analysis that rebuilds the TCRen scoring from `tcr-peptide-ranking` as auditable SQL joins, with tie-aware ranking written as window functions. The SQL scores reproduce all 2,525 Python reference scores, and the cognate-rank comparison between uniform and composition-matched negatives (TCRen baseline MRR 0.335 vs 0.268) shows how sensitive the benchmark is to the negative set. Includes pytest tests and CI.
+
 **[Machine-Learned Coarse-Grained Force Field](https://github.com/annemcq/mlcg-gnn-alanine)**  
 
 A SchNet-style graph neural network trained by force matching to learn a coarse-grained force field for alanine dipeptide. The model combines a harmonic bonded prior with a learned GNN correction and is validated through molecular dynamics simulations. A matched 60-epoch, three-seed comparison found the prior + GNN model closer to the reference conformational distribution (pooled JSD 0.583 vs 0.858 bits for GNN-only); the earlier claimed GNN-only instability was not reproduced.
@@ -52,6 +56,9 @@ PyTorch · scikit-learn
 
 **Scientific software:**  
 FastAPI · Streamlit · Docker
+
+**Data & databases:**
+SQL · SQLite · pytest
 
 ---
 

@@ -57,7 +57,7 @@ PyTorch · scikit-learn
 **Scientific software:**  
 FastAPI · Streamlit · Docker
 
-**Data & databases:**
+**Data & databases:**  
 SQL · SQLite · pytest
 
 ---
